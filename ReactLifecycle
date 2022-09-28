@@ -1,0 +1,22 @@
+React Lifecycle :
+ 
+There are 3 phases in React lifecycle, they are:-
+1. Mounting
+2. Updating
+3. UnMounting
+
+Mounting :-> 
+1. Constructor() ->  called before its mounted
+2. getDerivedStateFromProps()  -> method called right before rendering the elements
+3. render() -> instance of component created and inserted in the Dom (Only required in the class component)
+4. ComponentDidMount() -> after a component is mounted
+
+Updating :->
+1. getDerivedStateFromProps() -> this is the first method to be called when component is updated
+2. ShouldComponentUpdate() -> returns boolean method
+3. render() -> after component re renders
+4. getSnapShotBeforeUpdate() -> it shows previous state , previous props
+5. ComponentDidUpdate() -> after updating occurs
+
+UnMounting :->
+1. ComponentWillUnmount() -> before a component is unmounted
