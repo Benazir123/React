@@ -14,6 +14,24 @@ const Header = () => (
         <li>
           <Link to="unmounting">UnMounting Life  Cycle</Link>
         </li>
+        <li>
+          <Link to="jsx">JSX</Link>
+        </li>
+        <li>
+          <Link to="stateandprops">State and Props</Link>
+        </li>
+        <li>
+          <Link to="reactprops">React props</Link>
+        </li>
+        <li>
+          <Link to="conditionalrendering">Conditional Rendering</Link>
+        </li>
+        <li>
+          <Link to="inlineifwithlogical">Inline If with Logical</Link>
+        </li>
+        <li>
+          <Link to="inlineifwithternary">Inline If with Ternary</Link>
+        </li>
       </ul>
     </nav>
   </header>
