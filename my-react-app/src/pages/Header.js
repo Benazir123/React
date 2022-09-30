@@ -32,6 +32,15 @@ const Header = () => (
         <li>
           <Link to="inlineifwithternary">Inline If with Ternary</Link>
         </li>
+        <li>
+          <Link to="listandkeys">List and Keys</Link>
+        </li>
+        <li>
+          <Link to="hoc">HOC</Link>
+        </li>
+        <li>
+          <Link to="hocCount">HOC another example with count</Link>
+        </li>
       </ul>
     </nav>
   </header>

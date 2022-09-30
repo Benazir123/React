@@ -9,6 +9,9 @@ import Reactprops from "./Reactprops";
 import ConditionalRendering from "./Conditionalrendering";
 import Logical from "./Inlineifwithlogical";
 import Ternary from "./inlineifwithternary";
+import ListandKeys from './Listandkeys';
+import HOC from "./HOC";
+import HOCcount from "./HOCcount";
 
 const Main = () => (
   <main>
@@ -22,6 +25,9 @@ const Main = () => (
       <Route path="/conditionalrendering" element={<ConditionalRendering />} />
       <Route path="/inlineifwithlogical" element={<Logical />} />
       <Route path="/inlineifwithternary" element={<Ternary />} />
+      <Route path="/listandkeys" element={<ListandKeys />} />
+      <Route path="/hoc" element={<HOC />} />
+      <Route path="/hocCount" element={<HOCcount />} />
     </Routes>
   </main>
 );
